@@ -1,1 +1,2 @@
 # tasking-app
+I'm not a professional game designer, programmer nor app developer. So, I asked an AI to help me programming this app, it's a game, have fun playing it with your friends. Any questions, please send me an e-mail to costa.guilly@gmail.com
