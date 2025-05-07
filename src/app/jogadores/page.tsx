@@ -51,16 +51,9 @@ function GameApp() {
 // Página principal que envolve o aplicativo com o provedor de contexto
 export default function Home() {
   return (
-    <> {/* <--- Abre um React Fragment */}
-      <GameProvider>
-        <GameApp />
-      </GameProvider>
-      <div> {/* Agora este div está dentro do fragmento */}
-        <footer className="mt-12 text-center text-gray-500 text-sm">
-            <p>© 2025 TasKing - Todos os direitos reservados</p>
-          </footer>
-      </div>
-    </> {/* <--- Fecha o React Fragment */}
+    <GameProvider>
+      <GameApp />
+    </GameProvider>
   );
 }
 
