@@ -54,11 +54,6 @@ export default function Home() {
     <GameProvider>
       <GameApp />
     </GameProvider>
-    <div>        
-      <footer className="mt-12 text-center text-gray-500 text-sm">
-          <p>© 2025 TasKing - Todos os direitos reservados</p>
-        </footer>
-    </div>
   );
 }
 
